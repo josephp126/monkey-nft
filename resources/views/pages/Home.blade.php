@@ -25,7 +25,7 @@
             <div id="home" class="section no-page-title container-fluid">
                 <div class="video-wrapper">
                     <video class="portal_video" playsinline autoplay muted loop>
-                        <source src="{{asset('assets/images/back-hom.mp4')}}" type="video/mp4" >
+                        <source src="{{asset('assets/images/back-home.mp4')}}" type="video/mp4" >
                     </video>
                 </div>
                 <!-- <div>
