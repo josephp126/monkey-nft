@@ -3585,7 +3585,7 @@ footer .footer-social-divider:before {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 736px) {
   .blog-item-holder .entry-date.published,
   .blog-item-holder .cat-links,
   .single .entry-info div,
@@ -3603,7 +3603,7 @@ footer .footer-social-divider:before {
     font-size: 40px;
   }
   #home {
-    min-height: calc(100vh - 534px);
+    min-height: calc(100vh - 480px);
   }
 }
 
