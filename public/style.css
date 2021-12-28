@@ -44,12 +44,6 @@ A88FC9
 /* ===============
 Custom CSS For @media Mobile Class Alterations
 ===================*/
-@media (max-width: 426px) {
-  .page-template-onepage {
-    width: 454px;
-    display: block;
-  }
-}
 
 .menu_mintButton {
   background: #68a4f0;
@@ -3585,7 +3579,7 @@ footer .footer-social-divider:before {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 300px) {
   .blog-item-holder .entry-date.published,
   .blog-item-holder .cat-links,
   .single .entry-info div,
@@ -3603,7 +3597,7 @@ footer .footer-social-divider:before {
     font-size: 40px;
   }
   #home {
-    min-height: 370px;
+    min-height: 350px;
   }
 }
 
