@@ -800,13 +800,13 @@ body pre {
 
 .header-holder {
   z-index: 99 !important;
-  background-color: #060606;
+  /* background-color: #060606; */
   width: 100% !important;
   top: 0;
   position: fixed;
   transform: translateZ(0);
   -webkit-transform: translateZ(0);
-  padding: 0px 20px 0px 15px;
+  padding: 130px 50px 0px 117px;
 }
 
 .sticky-wrapper {
@@ -839,17 +839,18 @@ body pre {
 }
 
 .menu-holder {
-  float: right;
+  /* float: right; */
   max-width: 85%;
   padding-right: 0px;
 }
 
 .toggle-holder {
   display: none;
-  right: 10px;
+  /* right: 10px; */
+  left: 10px;
   z-index: 1;
   position: absolute;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
 }
 
@@ -954,7 +955,7 @@ body .sm-clean .mintButton:hover {
 
 .sm-clean li {
   margin-right: 10px;
-  float: left;
+  /* float: left; */
   margin-top: 11px;
 }
 
@@ -3212,6 +3213,7 @@ footer .footer-social-divider:before {
 
   .menu-holder.show {
     right: 0;
+    top: 0;
   }
 
   .sm-clean ul ul a,
@@ -3600,6 +3602,9 @@ footer .footer-social-divider:before {
     text-align: center;
     font-size: 40px;
   }
+  #home {
+    min-height: calc(100vh - 534px);
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -3616,5 +3621,18 @@ footer .footer-social-divider:before {
   .button-holder > a {
     text-align: center;
     font-size: 20px;
+  }
+}
+
+.header-holder .top-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 1650px) {
+  .header-holder .top-mask {
+    display: none;
   }
 }

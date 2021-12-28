@@ -21,68 +21,73 @@
 
 <body class="page-template-onepage">
     <div class="site-wrapper">
-        <header class="header-holder">
-            <div class="menu-wrapper center-relative relative">
-                <!-- <div class="header-logo">
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Seppo" loading="lazy">
-                </div> -->
-                <div class="toggle-holder">
-                    <div id="toggle">
-                        <div class="first-menu-line"></div>
-                        <div class="second-menu-line"></div>
-                        <div class="third-menu-line"></div>
-                    </div>
-                </div>
-                <div class="menu-holder">
-                    <nav id="header-main-menu">
-                        <ul class="main-menu sm sm-clean">
-                            <li>
-                                <a href="#home">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="#millstones">Roadmap</a>
-                            </li>
-                            <li>
-                                <a href="#team">Team</a>
-                            </li>
-                            <li>
-                                <a href="#mint">Mint</a>
-                            </li>
-                            <!-- <li>
-                                <a href="#contact">Contact</a>
-                            </li> -->
-                            <li>
-                                <a href="https://discord.gg/ttp99ctGUd" target="_blank" >
-                                    <span class="fa"><img src="{{asset('assets/images/discord.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/LabUnreal" target="_blank">
-                                    <span class="fa"><img src="{{asset('assets/images/twitter.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" target="_blank">
-                                    <span class="fa"><img src="{{asset('assets/images/opensea.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </header>
         <div id="content" class="site-content center-relative">
             <div id="home" class="section no-page-title container-fluid">
                 <div class="video-wrapper">
                     <video class="portal_video" playsinline autoplay muted loop>
-                        <source src="{{asset('assets/images/home-back.mp4')}}" type="video/mp4" >
+                        <source src="{{asset('assets/images/back-hom.mp4')}}" type="video/mp4" >
                     </video>
                 </div>
+                <!-- <div>
+                    
+                </div> -->
+                <header class="header-holder">
+                    <img class="top-mask" src="{{asset('assets/images/top-mask.png')}}" />
+                    <div class="menu-wrapper center-relative relative">
+                        <!-- <div class="header-logo">
+                            <img src="{{ asset('assets/images/logo.png') }}" alt="Seppo" loading="lazy">
+                        </div> -->
+                        <div class="toggle-holder">
+                            <div id="toggle">
+                                <div class="first-menu-line"></div>
+                                <div class="second-menu-line"></div>
+                                <div class="third-menu-line"></div>
+                            </div>
+                        </div>
+                        <div class="menu-holder">
+                            <nav id="header-main-menu">
+                                <ul class="main-menu sm sm-clean">
+                                    <li>
+                                        <a href="#home">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#millstones">Roadmap</a>
+                                    </li>
+                                    <li>
+                                        <a href="#team">Team</a>
+                                    </li>
+                                    <li>
+                                        <a href="#mint">Mint</a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#contact">Contact</a>
+                                    </li> -->
+                                    <li>
+                                        <a href="https://discord.gg/ttp99ctGUd" target="_blank" >
+                                            <span class="fa"><img src="{{asset('assets/images/discord.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/LabUnreal" target="_blank">
+                                            <span class="fa"><img src="{{asset('assets/images/twitter.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <span class="fa"><img src="{{asset('assets/images/opensea.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </header>
                 <div class="section-wrapper block content-1170 center-relative">
+                    
                     <!-- <div class="content-wrapper">
                         <h1 class="home_h1">
                             <b class="home_leapn"><i>Welcome to<br>Labyrinthine Unreal</i></b>
@@ -99,9 +104,9 @@
             <div id="about" class="section"
                 style="">
                 <div class="video-wrapper">
-                    <video class="portal_video" playsinline autoplay muted loop>
+                    <!-- <video class="portal_video" playsinline autoplay muted loop>
                         <source src="{{asset('assets/images/about-back.mp4')}}" type="video/mp4" >
-                    </video>
+                    </video> -->
                 </div>
                 <div>
                     <img class="bolt" src="{{asset('assets/images/bolt.png')}}" alt="" loading="lazy" />
@@ -555,93 +560,6 @@
     <script src="/js/stats.js"></script>
     <script src="/js/app.js"></script>
     <script>
-        $(".homeBack .labyrinthine-first img").mouseenter(function() {
-            $('.main-labyrinthine-text').text('');
-            $('.main-labyrinthine-text').text(`What is real? This age-old intensely debated question is often given
-                                                some of the most surprisingly roughhewn answers. Many people, when asked,
-                                                will simply enumerate whatever random objects lie within their field of
-                                                vision,
-                                                "the grass, the tree, the roof is real". Obviously, this type of eisegesis
-                                                does not
-                                                say much and ultimately subjects the real to the object instead of
-                                                explaining what it
-                                                is that makes the object real. It is a sort of delegated, or circular and
-                                                generally
-                                                unconscious, solipsism: You see an external object, and the fact that see it
-                                                validates
-                                                reality. If others see it too, it further cements your belief in the real.
-                                                This is the
-                                                essence of the 'appeal to the people'(argumentum ad populum) fallacy, and in
-                                                this case
-                                                one can see and understand exactly its appeal and how it arises.`);
-            $('.main-labyrinthine-text').css({
-                'display': 'block',
-                'animation-name': 'description-up',
-                'animation-duration': '1s',
-                'transform': 'scale(1,1)'
-            })
-        });
-        $(".homeBack .labyrinthine-second img").mouseenter(function() {
-            $('.main-labyrinthine-text').text('');
-            $('.main-labyrinthine-text').text(`In certain heightened or intoxicated states, however, this complacent
-                                                fallacy quickly falls apart.
-                                                One may be tempted to wave away these states of consciousness as articially
-                                                induced chemical reactions.
-                                                But everything in our brain is a chemical reaction, the so-called normal
-                                                state of mind being simply the
-                                                defaultor factory condition. In any case one does not need to ingest
-                                                anything dubious to achieve the
-                                                same results. This is often true also of certain soliditary spaces. A cave,
-                                                a cell, a dungeion.
-                                                All these confined spaces have one thing in common. By severely restricting
-                                                freedom of movement, they
-                                                take on the ominous character of a claustrophobic universe closing in on you
-                                                with its inescapable iron
-                                                laws. Here you do not have the luxury of agreement with the world and its
-                                                clloective thinking.
-                                                The majority and their reality (if they even exist) are the enemy. This is a
-                                                space either of sheer madness
-                                                and creativity or sufffocation and slow death. This is the labyrinthine
-                                                unreal where the mind becomes a twisted
-                                                extension of space, exerting an irresistible pull upon the chance visitor,
-                                                but with its lurking dangers also-one
-                                                cannot pierce its secrets without first opening up to the same abyssal
-                                                descent.`);
-            $('.main-labyrinthine-text').css({
-                'display': 'block',
-                'animation-name': 'description-up',
-                'animation-duration': '1s',
-                'transform': 'scale(1,1)'
-            });
-        });
-        $(".homeBack .labyrinthine-third img").mouseenter(function() {
-            $('.main-labyrinthine-text').text('');
-            $('.main-labyrinthine-text').text(`The labyrinth is an aesthetic space where fiction and truth, illusion and
-                                                reality collide and collude.
-                                                It is an enchanced artifact, and architectural game matrix of confinement
-                                                and escape, of orientation
-                                                and disorientaion, captivating the mind no less than the body. It is said
-                                                that the Minotaur was imprisoned
-                                                in the underground labyrinth of king Mino's palace not by how difficult it
-                                                was to navigate, but because he
-                                                never wanted to leave its enchanted garden.`);
-            $('.main-labyrinthine-text').css({
-                'display': 'block',
-                'animation-name': 'description-up',
-                'animation-duration': '1s',
-                'transform': 'scale(1,1)'
-            })
-        });
-        $(".homeBack .labyrinthine img").mouseleave(function(e) {
-            
-            $('.main-labyrinthine-text').css({
-                'display': 'none',
-                'animation-name': 'description-down',
-                'animation-duration': '1s',
-                'transform': 'scale(0,0)'
-            });
-        });
-
         $(window).on('load', function() {
             $('#home .content-wrapper').css({'display':'block', 'animation-name':'description-up', 'animation-duration': '1s'}); 
         });

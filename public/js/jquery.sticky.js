@@ -50,7 +50,7 @@
                     }
                     if (s.currentTop != newTop) {
                         s.stickyElement
-                            .css('position', 'fixed')
+                            .css('position', 'relative')
                             .css('top', newTop)
                             .addClass(s.className);
                         s.stickyElement.parent().addClass(s.className);

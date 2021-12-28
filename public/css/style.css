@@ -2157,3 +2157,6 @@ span.vdivider {
   margin-bottom: 40px;
   color: #071f3e;
 }
+
+@media only screen and (max-width: 730px) {
+}
