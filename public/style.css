@@ -3204,6 +3204,7 @@ footer .footer-social-divider:before {
     width: 300px;
     overflow: auto;
     max-width: 100%;
+    z-index: 99;
   }
 
   .header-holder {
@@ -3644,5 +3645,10 @@ footer .footer-social-divider:before {
   position: absolute;
   top: 12%;
   right: 10%;
-  z-index: 99;
+}
+
+@media screen and (min-width: 736px) {
+  .social-mark {
+    z-index: 99;
+  }
 }
