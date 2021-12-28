@@ -28,15 +28,31 @@
                         <source src="{{asset('assets/images/back-home.mp4')}}" type="video/mp4" >
                     </video>
                 </div>
-                <!-- <div>
-                    
-                </div> -->
-                <header class="header-holder">
+                <div>
                     <img class="top-mask" src="{{asset('assets/images/top-mask.png')}}" />
+                    <ul class="social-mark">
+                        <li>
+                            <a href="https://discord.gg/ttp99ctGUd" target="_blank" >
+                                <span class="fa"><img src="{{asset('assets/images/discord.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/LabUnreal" target="_blank">
+                                <span class="fa"><img src="{{asset('assets/images/twitter.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <span class="fa"><img src="{{asset('assets/images/opensea.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-logo">
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="Seppo" loading="lazy" />
+                </div>
+                <header class="header-holder">
                     <div class="menu-wrapper center-relative relative">
-                        <!-- <div class="header-logo">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="Seppo" loading="lazy">
-                        </div> -->
                         <div class="toggle-holder">
                             <div id="toggle">
                                 <div class="first-menu-line"></div>
@@ -62,24 +78,6 @@
                                     <li>
                                         <a href="#mint">Mint</a>
                                     </li>
-                                    <!-- <li>
-                                        <a href="#contact">Contact</a>
-                                    </li> -->
-                                    <li>
-                                        <a href="https://discord.gg/ttp99ctGUd" target="_blank" >
-                                            <span class="fa"><img src="{{asset('assets/images/discord.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/LabUnreal" target="_blank">
-                                            <span class="fa"><img src="{{asset('assets/images/twitter.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" target="_blank">
-                                            <span class="fa"><img src="{{asset('assets/images/opensea.png')}}" style="width: 18px" alt="" loading="lazy"></img></span>
-                                        </a>
-                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -87,7 +85,6 @@
                     </div>
                 </header>
                 <div class="section-wrapper block content-1170 center-relative">
-                    
                     <!-- <div class="content-wrapper">
                         <h1 class="home_h1">
                             <b class="home_leapn"><i>Welcome to<br>Labyrinthine Unreal</i></b>
