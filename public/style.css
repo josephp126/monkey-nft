@@ -3603,7 +3603,7 @@ footer .footer-social-divider:before {
     font-size: 40px;
   }
   #home {
-    min-height: calc(100vh - 480px);
+    min-height: 370px;
   }
 }
 
