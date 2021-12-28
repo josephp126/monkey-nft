@@ -44,6 +44,12 @@ A88FC9
 /* ===============
 Custom CSS For @media Mobile Class Alterations
 ===================*/
+/* @media (max-width: 426px) {
+  .page-template-onepage {
+    width: 454px;
+    display: block;
+  }
+} */
 
 .menu_mintButton {
   background: #68a4f0;
@@ -101,8 +107,8 @@ Custom CSS For @media Mobile Class Alterations
   font-size: 40px;
   left: 0;
   text-align: center;
-  margin-left: 50%;
-  transform: translate(-50%, 0%);
+  /* margin-left: 50%;
+  transform: translate(-50%, 0%); */
   color: #c3b135;
   line-height: 60px;
   padding-bottom: 0;
@@ -319,6 +325,15 @@ Custom CSS For @media Mobile Class Alterations
   border-radius: 200px / 200px;
   margin-right: 90px;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  #team .member img {
+    height: 130px;
+    width: 130px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 
 #team .member .row .col-md-6:first-child {
@@ -577,7 +592,7 @@ footer img:last-child {
 
   .selloutPercent {
     margin-top: 70px;
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .theApp2 {
@@ -785,7 +800,8 @@ body pre {
 
 .section-wrapper {
   position: relative;
-  padding: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 /* ===================================
@@ -1107,20 +1123,10 @@ body .sm-clean .mintButton:hover {
   background: url(assets/images/section-title-back.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: auto;
+  background-size: cover;
 }
 
-.page-title-holder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-
-  width: 285px;
-  display: inline-block;
-  z-index: 98;
-  height: 73px;
-}
+/* s */
 
 .page-title-holder:after {
   border-width: 0;
@@ -1134,6 +1140,16 @@ body .sm-clean .mintButton:hover {
   color: #fff;
   letter-spacing: 2px;
   margin: 1.25rem auto;
+}
+
+@media (max-width: 350px) {
+  .page-title {
+    width: 180px;
+    background-size: cover;
+  }
+  .section h3.entry-title {
+    font-size: 28px;
+  }
 }
 
 .page .page-content {
@@ -3579,7 +3595,7 @@ footer .footer-social-divider:before {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 736px) {
   .blog-item-holder .entry-date.published,
   .blog-item-holder .cat-links,
   .single .entry-info div,
@@ -3597,7 +3613,7 @@ footer .footer-social-divider:before {
     font-size: 40px;
   }
   #home {
-    min-height: 350px;
+    min-height: 370px;
   }
 }
 

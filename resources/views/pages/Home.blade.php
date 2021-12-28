@@ -526,15 +526,11 @@
         </div>
         <footer class="footer">
             <div style="display:flex">
-                <img src="{{ asset('assets/images/footer-avatar.png') }}"
-                    style="width: 120px" />
                 <div class="footer-content center-relative">
                     <div class="copyright-holder">
                         Labyrinthine Unreal © 2021
                     </div>
                 </div>
-                <img src="{{ asset('assets/images/footer-mark.png') }}"
-                    style="width: 120px" />
             </div>
         </footer>
     </div>
