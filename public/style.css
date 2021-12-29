@@ -804,6 +804,22 @@ body pre {
   padding-top: 50px;
 }
 
+#about .about-member-title {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 736px) {
+  .section-wrapper {
+    padding-top: 290px;
+  }
+
+  #about .about-member-title {
+    font-size: 28px;
+  }
+}
+
 /* ===================================
     2.1 Global Header Logo/Menu CSS
 ====================================== */
@@ -3660,4 +3676,26 @@ footer .footer-social-divider:before {
   .social-mark {
     z-index: 99;
   }
+}
+
+.tiers {
+  position: absolute;
+  top: 12%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tiers ul {
+  z-index: 100;
+}
+
+.tiers ul li {
+  margin-bottom: 10px;
+}
+
+.tiers ul li a {
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
 }

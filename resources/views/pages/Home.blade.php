@@ -112,12 +112,28 @@
                             About
                         </h3>
                     </div>
+                    <div class="tiers">
+                        <ul class="tiers-list">
+                            <li>
+                                <a href="https://111.com">Tier 1 (Champions)</a>    
+                            </li>
+                            <li>
+                                <a href="">Tier 2 (Knights)</a>    
+                            </li>
+                            <li>
+                                <a href="">Tier 3 (Warriors)</a>    
+                            </li>
+                            <li>
+                                <a href="">Box Tier (Royals)</a>    
+                            </li>
+                        </ul>
+                    </div>
                     <div class="section-wrapper block center-relative">
                         <div class="content-wrapper">
                             <div class="member member-left">
                                 <div class="member-info" data-threshold="300 460" data-jarallax-element="90 300">
                                     <h5 class="member-name" style="">
-                                        <p style="text-align:center; color:white; font-size: 36px">Welcome to The KingDome!</p>
+                                        <p class="about-member-title">Welcome to The KingDome!</p>
                                         The kingDome is the movement of the sports world into the virtual reality space.<br>
                                         A community of 8,888 NFT holders backed by seasoned executives across the technology,<br>
                                         real estate, art and sports sectors.<br>
@@ -291,55 +307,55 @@
                                                 <h2 class="reward-subtitle">Cards</h2>
                                                 <div class="row">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext"><b>Tier 1</b></p>
+                                                        <p class="milestone-text subtext"><b>Tier 1:</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> The Champions<br>
-                                                            <i class="fa fa-circle"></i> 210 NFT Holders<br>
-                                                            <i class="fa fa-circle"></i> Front row seats to each event in Season<br>
+                                                            <i class="fa fa-circle"></i> The Champions.<br>
+                                                            <i class="fa fa-circle"></i> 210 NFT Holders.<br>
+                                                            <i class="fa fa-circle"></i> Front row seats to each event in Season.<br>
                                                             <i class="fa fa-circle"></i> Access to the Premier Dome lounge where private panels, events as well as in-game lounging &<br>
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;Socializing with other Champions occurs<br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;Socializing with other Champions occurs.<br>
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="margin-top:20px">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext"><b>Tier 2</b></p>
+                                                        <p class="milestone-text subtext"><b>Tier 2:</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> The Knights<br>
-                                                            <i class="fa fa-circle"></i> 1,935 NFT Holders<br>
-                                                            <i class="fa fa-circle"></i> 100 section views<br>
-                                                            <i class="fa fa-circle"></i> Access to limited release artwork<br>
-                                                            <i class="fa fa-circle"></i> Access to potential royalties in KingDome net Revenues<br>
+                                                            <i class="fa fa-circle"></i> The Knights.<br>
+                                                            <i class="fa fa-circle"></i> 1,935 NFT Holders.<br>
+                                                            <i class="fa fa-circle"></i> 100 section views.<br>
+                                                            <i class="fa fa-circle"></i> Access to limited release artwork.<br>
+                                                            <i class="fa fa-circle"></i> Access to potential royalties in KingDome net Revenues.<br>
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="margin-top:20px">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext"><b>Tier 3</b></p>
+                                                        <p class="milestone-text subtext"><b>Tier 3:</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> The Warriors<br>
-                                                            <i class="fa fa-circle"></i> 6,633 NFT holders<br>
-                                                            <i class="fa fa-circle"></i> general Admission views<br>
-                                                            <i class="fa fa-circle"></i> Access to all stadium perks<br>
+                                                            <i class="fa fa-circle"></i> The Warriors.<br>
+                                                            <i class="fa fa-circle"></i> 6,633 NFT holders.<br>
+                                                            <i class="fa fa-circle"></i> general Admission views.<br>
+                                                            <i class="fa fa-circle"></i> Access to all stadium perks.<br>
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="margin-top:20px">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext">Box Tier</b></p>
+                                                        <p class="milestone-text subtext">Box Tier:</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> The Royals<br>
-                                                            <i class="fa fa-circle"></i> 5 boxes consisting of 22 NFT's within a single box<br>
-                                                            <i class="fa fa-circle"></i> VIP sectioned off arears for larger parties and gatherings<br>
-                                                            <i class="fa fa-circle"></i> Access to all stadium amenitiess<br>
+                                                            <i class="fa fa-circle"></i> The Royals.<br>
+                                                            <i class="fa fa-circle"></i> 5 boxes consisting of 22 NFT's within a single box.<br>
+                                                            <i class="fa fa-circle"></i> VIP sectioned off arears for larger parties and gatherings.<br>
+                                                            <i class="fa fa-circle"></i> Access to all stadium amenitiess.<br>
                                                         </p>
                                                     </div>
                                                 </div>
