@@ -1733,8 +1733,7 @@ h1.big-text {
 ====================================== */
 
 #about {
-  background-image: url(images/on_white_right.png);
-  background-color: #ffffff;
+  background-color: #503f13;
   background-position: right center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -2138,7 +2137,7 @@ h1.big-text {
 
 #team {
   background-image: url(images/on_black_left.png);
-  background-color: #000000;
+  background-color: #503f13;
   background-position: left center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -2225,7 +2224,7 @@ h1.big-text {
   padding: 0;
   font-size: 24px;
   font-weight: 300;
-  color: #c3b135;
+  color: white;
   margin: 0 !important;
 }
 
@@ -2342,8 +2341,8 @@ h1.big-text {
 ====================================== */
 
 #millstones {
-  background-image: url(assets/images/roadmap-back.png);
-  background-color: #000000;
+  /* background-image: url(assets/images/roadmap-back.png); */
+  background-color: #503f13;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -2931,7 +2930,7 @@ footer ul {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
-  background-color: #000;
+  background-color: #725822;
 }
 
 .footer-content {
@@ -3211,7 +3210,7 @@ footer .footer-social-divider:before {
     top: 77px;
     transition: right 0.3s ease;
     height: 100%;
-    width: 300px;
+    width: 200px;
     overflow: auto;
     max-width: 100%;
     z-index: 99;

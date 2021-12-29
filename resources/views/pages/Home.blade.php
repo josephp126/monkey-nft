@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>LABYRINTHINE | UNREAL</title>
+    <title>KINGDOME</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description"
         content="Welcome to the NFT Multiverse. Explore NFT worlds with your NFT Avatar in 3D, attend a live VR social NFT auction in a volcano, and so much more." />
@@ -75,9 +75,9 @@
                                     <li>
                                         <a href="#team">Team</a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <a href="#mint">Mint</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </nav>
                         </div>
@@ -100,11 +100,11 @@
             <!-- Do It All Section -->
             <div id="about" class="section"
                 style="">
-                <div class="video-wrapper">
-                    <!-- <video class="portal_video" playsinline autoplay muted loop>
+                <!-- <div class="video-wrapper">
+                    <video class="portal_video" playsinline autoplay muted loop>
                         <source src="{{asset('assets/images/about-back.mp4')}}" type="video/mp4" >
-                    </video> -->
-                </div>
+                    </video>
+                </div> -->
                 <div>
                     <img class="bolt" src="{{asset('assets/images/bolt.png')}}" alt="" loading="lazy" />
                     <div class="page-title">
@@ -115,24 +115,16 @@
                     <div class="section-wrapper block center-relative">
                         <div class="content-wrapper">
                             <div class="member member-left">
-                                <!-- <img src="{{ asset('assets/images/about-step.jpg') }}"
-                                    style="height: 400px; width: 400px; border-radius: 30px / 30px;" alt=""
-                                    data-threshold="0 0" data-jarallax-element="60 0" loading="lazy" /> -->
                                 <div class="member-info" data-threshold="300 460" data-jarallax-element="90 300">
                                     <h5 class="member-name" style="">
-                                        The Labyrinthine Unreal is a unique blend of interactive theory fiction,<br>
-                                        exitentialist role play, and Labyrinthine puzzzle solving based within the <br>
-                                        Ethereum blockchain with the addition of scripted elements that can<br>
-                                        encroach upon reality as well. A fully customizable experience, the<br>
-                                        Labyrinthine Unreal invites players to explore and advance at their own<br>
-                                        pace, permitting opportunities to shop its treasure laden rooms at their<br>
-                                        hearts desire.
+                                        <p style="text-align:center; color:white; font-size: 36px">Welcome to The KingDome!</p>
+                                        The kingDome is the movement of the sports world into the virtual reality space.<br>
+                                        A community of 8,888 NFT holders backed by seasoned executives across the technology,<br>
+                                        real estate, art and sports sectors.<br>
+                                        The KingDome's mission is to create the in person stadium experience, by building our<br>
+                                        very own stadium and associated technology in the metaverse to YOU, the KingDome NFT<br>
+                                        holders, so that you won't miss a moment<br>
                                     </h5>
-                                    <!-- <div class="member-content">
-                                        <p id="content3" style="color: white;  font-size: 25px;">
-                                            Using Video, Audio, text, etc for hint.<br>When you arrive to destination,
-                                            <b>WINNER</b> is you.
-                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -281,7 +273,7 @@
                                         <div>
                                             <div class="milestone-info-right">
                                                 <h3 class="milestone-title">Member Rewards</h3>
-                                                <div>
+                                                <!-- <div>
                                                     <h2 class="reward-subtitle">Genesis Masks</h2>
                                                     <div class="row">
                                                         <div class="col-md-3"></div>
@@ -293,41 +285,61 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                             <div class="milestone-info-right">
                                                 <h2 class="reward-subtitle">Cards</h2>
                                                 <div class="row">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext"><b>White tier</b></p>
+                                                        <p class="milestone-text subtext"><b>Tier 1</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> Acess to private alpha<br>
-                                                            <i class="fa fa-circle"></i> 1% change of winning one limited artwork if playing/attending (total 100)<br>
+                                                            <i class="fa fa-circle"></i> The Champions<br>
+                                                            <i class="fa fa-circle"></i> 210 NFT Holders<br>
+                                                            <i class="fa fa-circle"></i> Front row seats to each event in Season<br>
+                                                            <i class="fa fa-circle"></i> Access to the Premier Dome lounge where private panels, events as well as in-game lounging &<br>
+                                                            &nbsp;&nbsp;&nbsp;&nbsp;Socializing with other Champions occurs<br>
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="margin-top:20px">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext"><b>Silver tier</b></p>
+                                                        <p class="milestone-text subtext"><b>Tier 2</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> 5.25% chance of winning a limited artwork if playing/attending (100 total)<br>
-                                                            <i class="fa fa-circle"></i> 0.5 - 1% royalties from sales in the labyrinth during the public alpha (after which royalities<br>
-                                                            &nbsp;&nbsp;&nbsp;&nbsp;will go to black tier cards<br>
+                                                            <i class="fa fa-circle"></i> The Knights<br>
+                                                            <i class="fa fa-circle"></i> 1,935 NFT Holders<br>
+                                                            <i class="fa fa-circle"></i> 100 section views<br>
+                                                            <i class="fa fa-circle"></i> Access to limited release artwork<br>
+                                                            <i class="fa fa-circle"></i> Access to potential royalties in KingDome net Revenues<br>
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <div class="row" style="margin-top:20px">
                                                     <div class="col-md-3">
-                                                        <p class="milestone-text subtext"><b>Black tier</b></p>
+                                                        <p class="milestone-text subtext"><b>Tier 3</b></p>
                                                     </div>
                                                     <div class="col-md-9">
                                                         <p class="milestone-text">
-                                                            <i class="fa fa-circle"></i> 10% chance of 1 artwork of your choice<br>
-                                                            <i class="fa fa-circle"></i> 0.5 - 1% Lifetime royalties from scale in the labyrinth<br>
+                                                            <i class="fa fa-circle"></i> The Warriors<br>
+                                                            <i class="fa fa-circle"></i> 6,633 NFT holders<br>
+                                                            <i class="fa fa-circle"></i> general Admission views<br>
+                                                            <i class="fa fa-circle"></i> Access to all stadium perks<br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row" style="margin-top:20px">
+                                                    <div class="col-md-3">
+                                                        <p class="milestone-text subtext">Box Tier</b></p>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <p class="milestone-text">
+                                                            <i class="fa fa-circle"></i> The Royals<br>
+                                                            <i class="fa fa-circle"></i> 5 boxes consisting of 22 NFT's within a single box<br>
+                                                            <i class="fa fa-circle"></i> VIP sectioned off arears for larger parties and gatherings<br>
+                                                            <i class="fa fa-circle"></i> Access to all stadium amenitiess<br>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -340,7 +352,7 @@
                     </div>
                 </div>
             </div>
-            <div id="team" class="section" style="background-color: black;">
+            <div id="team" class="section">
                 <img src="{{asset('assets/images/bolt.png')}}" style="width: 100%; top:0; margin-top: 0px; transform: translate(0%, -50%);" alt="" loading="lazy"/>
                 <div class="page-title">
                     <h3 class="entry-title">
@@ -356,8 +368,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="member-info-team">
-                                        <p class="member-postition">FOUNDER</p>
-                                        <h5 class="member-name" style="color: white">Cergat Bos</h5>
+                                        <p class="member-postition">CO-FOUNDER</p>
+                                        <h5 class="member-name" style="color: white">ALEX FLESHNER</h5>
                                         <div class="member-content" style="color: white">
                                             <br>
                                             <a href="https://twitter.com/EmptyCobwebs" target="_blank">
@@ -375,8 +387,8 @@
                                 </div>
                                 <div class="col-md-6 col-md-pull-6">
                                     <div class="member-info-team">
-                                        <p class="member-postition">CREATIVE MANAGER</p>
-                                        <h5 class="member-name" style="color: white">Elytron Frass</h5>
+                                        <p class="member-postition">CO-FOUNDER</p>
+                                        <h5 class="member-name" style="color: white">JAKE SALZBERG</h5>
                                         <div class="member-content">
                                             <br>
                                             <a href="https://twitter.com/Elytron_Frass" target="_blank">
@@ -394,8 +406,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="member-info-team">
-                                        <p class="member-postition">CHRACTER DESIGNER</p>
-                                        <h5 class="member-name" style="color: white">cr24ti7e</h5>
+                                        <p class="member-postition">Chief Partnerships Officer</p>
+                                        <h5 class="member-name" style="color: white">BEN GOLDMAN</h5>
                                         <div class="member-content" style="color: white">
                                             <br>
                                             <a href="https://twitter.com/cr24ti7e " target="_blank">
@@ -413,8 +425,8 @@
                                 </div>
                                 <div class="col-md-6 col-md-pull-6">
                                     <div class="member-info-team" style="">
-                                        <p class="member-postition">DEVELOPER</p>
-                                        <h5 class="member-name" style="color: white">Jonathan Lee</h5>
+                                        <p class="member-postition">Art Creator</p>
+                                        <h5 class="member-name" style="color: white">SERGIO SANTOS</h5>
                                         <div class="member-content">
                                             <br>
                                             <a href="https://twitter.com/cr24ti7e " target="_blank">
@@ -428,7 +440,7 @@
                     </div>
                 </div>
             </div>
-            <div id="mint" class="section"
+            <!-- <div id="mint" class="section"
                 style="background-color:#000; background-repeat: no-repeat;  background-size: cover; background-position: center center;">
                 <img src="{{asset('assets/images/bolt.png')}}"
                     style="width: 100%; top:0; margin-top: 0px; transform: translate(0%, -50%);" alt=""
@@ -452,46 +464,6 @@
                         </div>
                         <div class="one_half last">
                             <div class="one" data-threshold="0 0" data-jarallax-element="0 40">
-                                <!-- <h3 style="color: white; font-weight: 300; text-align: center;">
-                                    <div id="minting-div">
-                                        <div><a target="_blank" onclick="window.open(this.href,'_blank');return false;" id="contract-link" href="#">Contract</a></div>
-                                        <button class="connect-btn" id="connect-btn">Connect</button>
-                                        <div id="connected" style="display:none;">
-                                            <div class="line-height">Address:&nbsp<span id="account"></span></div>
-                                            <div class="line-worlds" style="display:none;">
-                                                <span id="minted-amount">?</span>
-                                                /
-                                                <span id="total-allowed">?</span>
-                                                worlds minted
-                                            </div>
-                                            <style>
-                                                #tooltip-text {
-                                                    visibility: hidden;
-                                                    width: 150px;
-                                                    background-color: black;
-                                                    color: #fff;
-                                                    text-align: center;
-                                                    border-radius: 6px;
-                                                    padding: 5px 0;
-                                                    /* Position the tooltip */
-                                                    position: absolute;
-                                                    z-index: 1;
-                                                }
-
-                                                #tooltip:hover #tooltip-text {
-                                                    visibility: visible;
-                                                }
-
-                                            </style>
-                                            <input id="mint-amount" type="number" value="1" min="1" max="10"
-                                                onkeyup="if(this.value > 10) { this.value = 10;}" disabled></input>
-                                            <button id="mint-btn" disabled>Mint</button>
-                                            <span style="display:none;" id="tooltip">(?)<span
-                                                    id="tooltip-text">-</span></span>
-                                        </div>
-                                        <div id="status">Please connect your wallet to mint</div>
-                                    </div>
-                                </sh3> -->
                             </div>
                         </div>
                         <div class="clear">
@@ -499,7 +471,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- <div id="contact" class="section no-page-title tiles">
                 <img src="{{asset('assets/images/bolt.png')}}"
                     style="width: 100%; top:0; margin-top: 0px; transform: translate(0%, -50%);"
@@ -528,7 +500,7 @@
             <div style="display:flex">
                 <div class="footer-content center-relative">
                     <div class="copyright-holder">
-                        Labyrinthine Unreal © 2021
+                        TheKingDome © 2021
                     </div>
                 </div>
             </div>
